@@ -9,6 +9,8 @@ import Edit from './module/employeeedit';
 import Formcompany from './module/companyform';
 import Listcompany from './module/companylist';
 import Editcompany from './module/companyedit';
+import axios from 'axios';
+axios.get("http://localhost:3000/employee/testdata")
 function App() {
 
   return (
@@ -18,8 +20,7 @@ function App() {
       <div className="App">
         
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#" style={{color:'orange',fontWeight:'bold'}}>mostafa rajabi</a>
-            
+          <a className="navbar-brand" href="www.google.com" style={{color:'orange',fontWeight:'bold'}}>mostafa rajabi</a>   
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
